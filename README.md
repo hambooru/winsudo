@@ -2,6 +2,7 @@
 `winsudo` is an otherwise dumb implementation of the linux command `sudo` in windows, built using C#. It's really stupid so please just think of it as a joke and not as an actual project.
 
 *NOTE: since the password thingy has not been implemented yet, please use the password `workinprogress`.*
+*SIDE NOTE: please don't actually use this for real world purposes.*
 
 ### Limitations
 Due to limitations in Microsoft Windows, A UAC prompt will be required to start your `winsudo`'d application or argument. While you can get rid of this by turning off UAC, please don't unless you really know what you're doing.
